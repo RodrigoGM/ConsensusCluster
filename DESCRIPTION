@@ -1,0 +1,18 @@
+Package: ConsensusCluster
+Type: Package
+Title: Iterative Consensus Clustering with Multiple Distance Metrics
+Version: 1.0.0
+Author: Rodrigo Gularte Merida
+Maintainer: Rodrigo Gularte Merida <gularter@mskcc.org>
+Description: Implements iterative consensus clustering using C++ for performance.
+    Supports multiple distance metrics including Manhattan, Bray-Curtis, 
+    Jaccard, and Fisher distance.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: Rcpp (>= 1.0.0), cluster, ape
+LinkingTo: Rcpp, RcppArmadillo
+Depends: R (>= 3.5.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+NeedsCompilation: yes
